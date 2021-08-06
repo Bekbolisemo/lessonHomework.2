@@ -25,7 +25,7 @@ public class Main {
     }
 
     public static int generateRandomAge() {
-        int random =(int) (Math.random()*80);
+        int random = (int) (Math.random() * 80);
         return random;
 
     }
