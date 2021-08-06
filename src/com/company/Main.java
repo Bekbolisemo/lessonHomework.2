@@ -1,6 +1,5 @@
 package com.company;
 
-
 public class Main {
     public static void main(String[] args) {
         gul(generateRandomAge(), 25);
@@ -25,8 +24,7 @@ public class Main {
     }
 
     public static int generateRandomAge() {
-        int random = (int) (Math.random() * 80);
-        return random;
+        return (int) (Math.random() * 80);
 
     }
 }
